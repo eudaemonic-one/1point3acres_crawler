@@ -1,14 +1,36 @@
 # -*- coding: utf-8 -*-
-
-# Define here the models for your scraped items
-#
-# See documentation in:
-# https://doc.scrapy.org/en/latest/topics/items.html
-
 import scrapy
 
 
-class CrawlerItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class AdmissionReportItem(scrapy.Item):
+    url = scrapy.Field()
+    visit = scrapy.Field()
+    reply = scrapy.Field()
+    topic = scrapy.Field()
+    username = scrapy.Field()
+    uid = scrapy.Field()
+    year = scrapy.Field()
+    semester = scrapy.Field()
+    major = scrapy.Field()
+    degree = scrapy.Field()
+    admission_type = scrapy.Field()
+    submission_type = scrapy.Field()
+    result = scrapy.Field()
+    school = scrapy.Field()
+    notification_time = scrapy.Field()
+    personal_information = scrapy.Field()
+    undergraduate_school_level = scrapy.Field()
+    undergraduate_school = scrapy.Field()
+    undergraduate_major = scrapy.Field()
+    undergraduate_grade = scrapy.Field()
+    graduate_school_level = scrapy.Field()
+    graduate_school = scrapy.Field()
+    graduate_major = scrapy.Field()
+    graduate_grade = scrapy.Field()
+    toefl_grade = scrapy.Field()
+    gre_grade = scrapy.Field()
+    sub_major = scrapy.Field()
+    background = scrapy.Field()
+    region = scrapy.Field()
+    notification_channel = scrapy.Field()
+    supplement = scrapy.Field()
